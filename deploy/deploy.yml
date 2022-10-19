@@ -24,4 +24,4 @@ spec:
       - name: hello-pod
         image: k0nova/k8shero:1.0
         ports:
-        - containerPort: 8080
+        - containerPort: 80
