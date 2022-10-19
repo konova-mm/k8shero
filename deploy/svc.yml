@@ -3,12 +3,12 @@ kind: Service
 metadata:
   name: hello-svc
   labels:
-    app: hello-world
+    app: hello-k8s
 spec:
   type: NodePort
   ports:
-  - port: 8080
+  - port: 80
     nodePort: 30001
     protocol: TCP
   selector:
-    app: hello-world
+    app: k8s
